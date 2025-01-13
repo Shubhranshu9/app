@@ -1,0 +1,29 @@
+{ "compilerOptions": {
+  "jsx": "react-jsx",
+  "target": "ESNext",
+  "module": "ESNext",
+ 
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
